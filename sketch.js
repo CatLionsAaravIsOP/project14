@@ -1,7 +1,7 @@
 var bow , arrow,  scene;
 var bowImage, arrowImage, green_balloonImage, red_balloonImage, pink_balloonImage ,blue_balloonImage, backgroundImage;
 var select_balloon=1
-var score=0;
+var score;
 
 function preload(){
   
@@ -104,6 +104,8 @@ function draw() {
 
 
   drawSprites();
+  score = 0
+  text("Score; " + score, 270,300)
 }
 
 
